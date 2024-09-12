@@ -1,6 +1,7 @@
 var cantidadProducto = 1; // Inicializa la cantidad en 0
 var precio = 35990;
 
+
 function actualizar() {
     var totalGeneral = cantidadProducto * precio;
     document.querySelector('#total').innerHTML = totalGeneral;
